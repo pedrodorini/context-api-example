@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { HomeContainer, Container } from './style.js'
-import { ThemeProvider } from '../../context/Theme'
-import Button from '../../components/Button'
-import Header from '../../components/Header'
+import { ThemeProvider } from '@context/Theme'
+import Button from '@components/Button'
+import Header from '@components/Header'
 
 class Home extends Component {
   constructor() {

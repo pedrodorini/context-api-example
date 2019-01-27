@@ -1,5 +1,5 @@
 import React from 'react'
-import { ThemeConsumer } from '../../context/Theme'
+import { ThemeConsumer } from '@context/Theme'
 
 const Header = () => (
   <ThemeConsumer>
