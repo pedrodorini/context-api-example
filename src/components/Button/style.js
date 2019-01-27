@@ -7,4 +7,5 @@ export const Button = styled.button`
   cursor: pointer;
   padding: 5px 10px;
   outline: none;
+  transition: .3s ease;
 `

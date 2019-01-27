@@ -9,6 +9,7 @@ export const HomeContainer = styled.div`
   width: 100vw;
   justify-content: center;
   align-items: center;
+  transition: .3s ease;
 `
 export const Container = styled.div`
   margin: auto;
@@ -16,4 +17,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h1 {
+    transition: .3s ease;
+  }
 `
